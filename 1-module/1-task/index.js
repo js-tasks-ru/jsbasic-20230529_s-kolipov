@@ -1,3 +1,5 @@
 function factorial(n) {
-  // ваш код...
+  let isFactorial;
+  for (isFactorial = 1; n; isFactorial = isFactorial * n--) {}
+  return isFactorial;
 }
